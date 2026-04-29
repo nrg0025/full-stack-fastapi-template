@@ -38,7 +38,7 @@ updates:
       - /backend
       - /frontend
     schedule:
-      interval: daily
+      interval: weekly
     cooldown:
       default-days: 7
     commit-message:
@@ -48,7 +48,7 @@ updates:
   - package-ecosystem: docker-compose
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     cooldown:
       default-days: 7
     commit-message:
